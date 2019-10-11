@@ -36,8 +36,8 @@ var LMIssuesArray = [];
 var jira = new JiraApi({
   protocol: 'https',
   host: 'jira.devtools.lfg.com/issues',                 // ASSIGN JIRA SERVER
-  username: 'tyibe3',                               // NEED TO PUT YOUR INFO HERE
-  password: '7523e4x9A!',                               // NEED TO PUT YOUR INFO HERE
+  username: '<user>',                               // NEED TO PUT YOUR INFO HERE
+  password: '<pass>',                               // NEED TO PUT YOUR INFO HERE
   apiVersion: '2',
   strictSSL: false
 });
