@@ -1,0 +1,17 @@
+{
+  "name": "jira-convert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.5.0",
+    "jira-client": "^6.12.0",
+    "jira-connector": "^2.16.1",
+    "mongodb": "^3.3.2"
+  }
+}
