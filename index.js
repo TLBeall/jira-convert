@@ -35,7 +35,7 @@ var LMIssuesArray = [];
 // -------------------------------------------------
 var jira = new JiraApi({
   protocol: 'https',
-  host: 'jira.devtools.lfg.com/issues',                 // ASSIGN JIRA SERVER
+  host: '<host>',                                   // ASSIGN JIRA SERVER
   username: '<user>',                               // NEED TO PUT YOUR INFO HERE
   password: '<pass>',                               // NEED TO PUT YOUR INFO HERE
   apiVersion: '2',
@@ -46,7 +46,7 @@ var jira = new JiraApi({
 
 // CONNECT TO MONGODB
 // ------------------------------------------------
-const url = 'mongodb://localhost:27017';                  // SERVER
+const url = '<server>';                  // SERVER
 const dbName = 'jira_blue';                               // DATABASE
 MongoClient.connect(url, function (err, client) {
   assert.equal(null, err);                                 //assert :: If an expression evaluates to 0 or false, an error is thrown and the program is terminated:
